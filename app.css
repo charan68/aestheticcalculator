@@ -44,8 +44,17 @@ h1{
         display:flex;
         justify-content: center;
         align-items: center;
+        width: auto;
+        height: 100vh;
         /* margin-right: 3em;
         margin-left: 3em; */
+    }
+    .col-md-6{
+        margin-top: none;
+    }
+    body{
+        height: 100vh;
+        
     }
     
 }
