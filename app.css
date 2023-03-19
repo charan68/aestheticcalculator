@@ -1,0 +1,51 @@
+body{
+    background:#b8a7a7 url('https://cdn.dribbble.com/users/257123/screenshots/13967127/media/20ea6c404c5787a1dca1180abd01905b.png?compress=1&resize=1000x750&vertical=top');
+    background-blend-mode:difference;
+}
+
+.col-md-6{
+    color: white;
+    margin-top: 100px !important;
+    border-radius: 15px;
+    border: 0.5px solid white !important;
+    backdrop-filter: blur(20px);
+    padding: 2em;
+    padding-right: -2em;
+    
+}
+
+input[type=text]{
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+    transform: translateY(5px);
+    width:100%;
+}
+
+input[type=button]{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.284);
+    color: white;
+    border-radius: 20px;
+    font-size: 25px;
+    
+    /* border: 1px solid white; */
+}
+
+h1{
+    font-weight: bolder !important;
+    margin-top: 10px;
+}
+
+@media (max-width:780px) {
+    .container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-right: 3em;
+        margin-left: 3em; */
+    }
+    
+}
