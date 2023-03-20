@@ -44,15 +44,21 @@ h1{
         display:flex;
         justify-content: center;
         align-items: center;
-        
-        
+        background:#b8a7a7 url('https://cdn.dribbble.com/users/257123/screenshots/13967127/media/20ea6c404c5787a1dca1180abd01905b.png?compress=1&resize=1000x750&vertical=top');
+        background-blend-mode:difference;
         /* margin-right: 3em;
         margin-left: 3em; */
     }
-    
-    body{
-        height: 100vh;
-        /* background-repeat: no-repeat; */
+    .col-md-6{
+        width: 90%;
+        
+        justify-content: center;
+        align-items: center;
+        /* aspect-ratio: unset; */
+    }
+    h1{
+        font-size: x-large;
     }
     
-}
+} 
+    
